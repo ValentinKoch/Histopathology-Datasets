@@ -98,8 +98,7 @@ TNBC [50] | Breast | H&E | [data](https://peterjacknaylor.github.io/data/), [dat
 TUPAC16 [51] | Breast | H&E | [data](https://tupac.grand-challenge.org/), [paper](https://arxiv.org/ftp/arxiv/papers/1807/1807.08284.pdf) | 500 | images + label | classi (wsi level) | WSI | 40x (from TCGA) | 2019
 TUPAC16 - aux [52] | Breast - mitoses| H&E | [data](https://tupac.grand-challenge.org/) | 73 | images + locations | seg | patch | 40x (from TCGA) Leica SCN400 | 2019
 UniToPatho [56] | Colon | H&E | [data](https://github.com/EIDOSlab/UNITOPATHO), [paper](https://ieeexplore.ieee.org/document/9506198) | 9.536 from 292 wsi | images + label (6 classes) | classi | patch | 20x - Hamamatsu Nanozoomer S210 | 2021
-VisioMel | Melanoma | H&E | [data](https://www.drivendata.org/competitions/148/visiomel-melanoma/page/717/), [code](https://drivendata.co/blog/visiomel-melanoma-benchmark) | train: 1342 wsi, test: 600, valid: 1200, 16 WSIs annotated | images + annotation + clinical metadata + label | classi (2) |  | 2023
-WSSS4LUAD [53] | Lung | H&E | [data](https://wsss4luad.grand-challenge.org/), [paper](https://arxiv.org/pdf/2204.06455.pdf) | 87 (Train: 53, valid: 12, Test: 12) | Train: 10.091 patches, Valid: 40 patches, Test: 80 patches; image level for train, pixel level for test/valid | tissue semantic seg | wsi | (67 GDPH, 20 TCGA) | 2021
+WSSS4LUAD [53] | Lung | H&E | [data](https://wsss4luad.grand-challenge.org/), [paper](https://arxiv.org/pdf/2204.06455.pdf) | 87 (Train: 53, valid: 12, Test: 12) | Train: 10.091 patches, Valid: 40 patches, Test: 80 patches; image level for train, pixel level for test/valid | tissue semantic seg | wsi | (67 GDPH, 20 TCGA) | 2021 | WSS4LUAD
 
 # References
 [1a] Li, Zhang, et al. "Computer-aided diagnosis of lung carcinoma using deep learning-a pilot study." arXiv preprint arXiv:1803.05471 (2018).
